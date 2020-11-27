@@ -201,7 +201,11 @@ body {
 /* --------Structure--------- */
 
 .main-padding {
-    padding: 140px 0px;
+    padding: 150px 0px;
+}
+
+.sec-padding {
+    padding: 80px 0px;
 }
 
 
@@ -236,6 +240,24 @@ body {
 }
 
 
+/* ---------Section--------- */
+
+.section-title {
+    margin-bottom: 32px;
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+    line-height: 1.3;
+    font-weight: 900;
+    letter-spacing: -.01em;
+}
+
+.section-span {
+    border-bottom: 3px solid #f65858;
+    color: #f65858;
+    cursor: pointer;
+}
+
+
 /* ---------Buttons--------- */
 
 .btn {
@@ -252,8 +274,9 @@ body {
 }
 
 .btn-no-bg {
-    background-color: #b9b9b91c !important;
+    background-color: transparent !important;
     color: #000 !important;
+    border: 1px solid #e8e8e8 !important;
 }
 
 .main-btn {
@@ -268,5 +291,5 @@ body {
 
 .btn-small {
     font-size: 15px !important;
-    padding: 10px 20px !important;
+    padding: inherit 20px !important;
 }
