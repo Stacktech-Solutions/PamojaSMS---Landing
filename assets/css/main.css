@@ -201,7 +201,7 @@ body {
 /* --------Structure--------- */
 
 .main-padding {
-    padding: 150px 0px;
+    padding: 130px 0px;
 }
 
 .sec-padding {
@@ -213,6 +213,17 @@ body {
 
 .main-blue {
     color: #00006D !important;
+}
+
+
+/* --------Navigation-------- */
+
+.nav-link {
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    color: #f54949 !important;
 }
 
 
@@ -273,10 +284,8 @@ body {
     color: #fff !important;
 }
 
-.btn-no-bg {
-    background-color: transparent !important;
-    color: #000 !important;
-    border: 1px solid #e8e8e8 !important;
+.btn-red:hover {
+    background-color: #f54949 !important;
 }
 
 .main-btn {
@@ -292,4 +301,12 @@ body {
 .btn-small {
     font-size: 15px !important;
     padding: inherit 20px !important;
+    padding: 10px 30px !important;
+}
+
+.btn-no-bg {
+    background-color: transparent !important;
+    color: #000 !important;
+    border: 1px solid #e8e8e8 !important;
+    padding: 10px 20px !important;
 }
