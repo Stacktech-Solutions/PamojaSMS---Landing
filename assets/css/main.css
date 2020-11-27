@@ -212,7 +212,7 @@ body {
 /* --------Colors----------- */
 
 .main-blue {
-    color: #00006D;
+    color: #00006D !important;
 }
 
 
