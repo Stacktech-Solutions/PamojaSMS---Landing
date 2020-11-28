@@ -205,7 +205,7 @@ body {
 }
 
 .sec-padding {
-    padding: 80px 0px;
+    padding: 70px 0px;
 }
 
 
@@ -213,6 +213,10 @@ body {
 
 .main-blue {
     color: #00006D !important;
+}
+
+.blue-bg {
+    background-color: #030327;
 }
 
 
@@ -266,6 +270,13 @@ body {
     line-height: 1.3;
     font-weight: 900;
     letter-spacing: -.01em;
+}
+
+.title-head {
+    font-weight: 300 !important;
+    font-size: 14px !important;
+    border-radius: 100px !important;
+    padding: 10px 20px !important;
 }
 
 .section-span {
