@@ -201,11 +201,21 @@ body {
 /* --------Structure--------- */
 
 .main-padding {
-    padding: 130px 0px 160px 0px;
+    padding: 140px 0px 160px 0px;
 }
 
 .sec-padding {
-    padding: 70px 0px;
+    padding: 90px 0px;
+}
+
+
+/* -------Typography--------- */
+
+.h3,
+h3 {
+    font-size: 1.3125rem !important;
+    margin-bottom: .5rem;
+    font-weight: 400;
 }
 
 
@@ -217,6 +227,10 @@ body {
 
 .blue-bg {
     background-color: #030327;
+}
+
+.main-bg {
+    background: #edf0fb;
 }
 
 
@@ -232,10 +246,6 @@ body {
 
 
 /* ----------Hero---------- */
-
-.hero {
-    background: #edf0fb;
-}
 
 .hero-title {
     margin-bottom: 32px;
@@ -266,7 +276,7 @@ body {
 .section-title {
     margin-bottom: 32px;
     font-family: 'Merriweather', serif;
-    font-size: 36px;
+    font-size: 33px;
     line-height: 1.3;
     font-weight: 900;
     letter-spacing: -.01em;
@@ -283,6 +293,27 @@ body {
     border-bottom: 3px solid #38c101;
     color: #38c101;
     cursor: pointer;
+}
+
+.section--image {
+    width: 100%;
+    min-height: 35rem;
+    background-color: #edf0fb;
+    border-radius: 5px;
+    background-image: url(../img/section-image.jpg);
+    background-repeat: no-repeat;
+    background-size: 850px;
+    background-position: -100px;
+}
+
+.benefit-title {
+    font-size: 15px !important;
+    font-weight: 600;
+    line-height: 1.33333;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    margin-bottom: 12px;
+    color: #00006D !important;
 }
 
 
@@ -352,4 +383,10 @@ body {
     width: 220px;
     top: 80px;
     left: 300px;
+}
+
+.extra-svg {
+    position: absolute;
+    top: -30px;
+    right: 300px;
 }
