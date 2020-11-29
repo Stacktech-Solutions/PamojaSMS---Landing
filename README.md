@@ -1,3 +1,3 @@
 # PamojaSMS---Landing
 
-Work in Progress
+Basic landing page finished
