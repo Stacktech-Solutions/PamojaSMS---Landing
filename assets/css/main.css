@@ -205,7 +205,11 @@ body {
 }
 
 .sec-padding {
-    padding: 90px 0px;
+    padding: 100px 0px;
+}
+
+.w-40 {
+    width: 40%;
 }
 
 
@@ -225,19 +229,27 @@ h3 {
     color: #00006D !important;
 }
 
+.main-green {
+    color: #38c101 !important;
+}
+
 .blue-bg {
-    background-color: #030327;
+    background-color: #03031d;
 }
 
 .main-bg {
     background: #edf0fb;
 }
 
+.text-gray {
+    color: #bdc5d1 !important;
+}
+
 
 /* --------Navigation-------- */
 
 .nav-link {
-    font-size: 15px;
+    font-size: 15px !important;
 }
 
 .nav-link:hover {
@@ -257,7 +269,7 @@ h3 {
 }
 
 .hero-lead {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     margin-bottom: 40px;
@@ -303,7 +315,7 @@ h3 {
     background-image: url(../img/section-image.jpg);
     background-repeat: no-repeat;
     background-size: 850px;
-    background-position: -100px;
+    background-position: -150px;
 }
 
 .benefit-title {
@@ -314,6 +326,37 @@ h3 {
     letter-spacing: .04em;
     margin-bottom: 12px;
     color: #00006D !important;
+}
+
+.benefit-icon {
+    background-color: #edf0fb;
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+}
+
+.benefit-icon i {
+    font-size: 30px;
+}
+
+.b-contents {
+    z-index: 7;
+}
+
+.t-photo {
+    width: 80px;
+    height: 80px;
+    background-color: #edf0fb;
+    border-radius: 100px;
+}
+
+
+/* -----------Footer--------- */
+
+.footer span,
+a {
+    color: #fff !important;
+    font-size: 14px !important;
 }
 
 
@@ -338,7 +381,7 @@ h3 {
 
 .main-btn {
     padding: 18px 25px;
-    font-size: 18px;
+    font-size: 18px !important;
     line-height: 1.3333333;
     text-decoration: none !important;
     text-align: center;
@@ -389,4 +432,12 @@ h3 {
     position: absolute;
     top: -30px;
     right: 300px;
+}
+
+.num {
+    font-size: 10em;
+    left: -50px;
+    color: #ececec5d;
+    font-family: 'Merriweather', serif;
+    z-index: -1;
 }
